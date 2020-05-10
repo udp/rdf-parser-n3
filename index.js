@@ -1,7 +1,7 @@
 var rdf = require('rdf-ext')
 var util = require('util')
 var AbstractParser = require('rdf-parser-abstract')
-var N3 = require('n3')
+var N3 = require('@rdfoo/n3')
 
 function N3Parser (options) {
   AbstractParser.call(this, rdf)
